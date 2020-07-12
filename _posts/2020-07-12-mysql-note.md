@@ -1,5 +1,6 @@
 ---
 layout: post
+title: MySql Note
 categories: mysql
 ---
 
