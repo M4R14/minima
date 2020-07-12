@@ -9,6 +9,14 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -52,6 +60,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - about.md
+  - note.md
 
 # Build settings
 theme: minima
