@@ -5,9 +5,7 @@ date:   2020-07-12 10:18:50 +0700
 categories: Laravel
 ---
 
-ผมใช้ php v7.4 และ Laravel-v7 ในการสาธิต 
-
-เพื่อสาธิตให้เข้าใจง่าย ผมจะสร้างเว็บ Blog อย่างง่าย คือ สามารถ Post ข้อความและรูปได้ เริ่มจาก สร้าง migration Posts Table
+ผมใช้ php v7.4 และ Laravel-v7 ในการสาธิต เพื่อสาธิตให้เข้าใจง่าย ผมจะสร้างเว็บ Blog อย่างง่าย คือ สามารถ Post ข้อความและรูปได้ เริ่มจาก สร้าง migration Posts Table
 
 ```php
 // class CreatePostsTable
@@ -18,7 +16,7 @@ Schema::create('posts', function (Blueprint $table) {
 });
 ```
 
-ติดตั้ง [laravel-medialibrary][2]
+## ติดตั้ง [laravel-medialibrary][2]
 
 ```sh
 composer require "spatie/laravel-medialibrary:^8.0.0"
@@ -43,7 +41,7 @@ class Post extends Model implements HasMedia
 }
 ```
 
-สร้าง UI สร้างสำหรับ เขียน Post และ Upload รูป
+## สร้าง UI สร้างสำหรับ เขียน Post และ Upload รูป
 
 ```php
 // app/Http/Controllers/PostController.php
