@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ติดตั้ง Laravel ด้วย Docker สำหรับ Dev
+categories: laravel
 ---
 วิธีที่ผมใช้นี้มีแค่ Docker ก็เพียงพอแล้ว สำหรับการเริ่มต้นโปรเจค
 
