@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Review: Laravel Medialibrary "
-date:   2020-07-12 10:18:50 +0700
-categories: Laravel
+title:  "Review: Laravel Medialibrary - ไม่ต้องสร้าง Culumn เพิ่ม"
+date:  2020-07-12 10:18:50 +0700
+categories: laravel
 ---
 
 ผมใช้ php v7.4 และ Laravel-v7 ในการสาธิต เพื่อสาธิตให้เข้าใจง่าย ผมจะสร้างเว็บ Blog อย่างง่าย คือ สามารถ Post ข้อความและรูปได้ เริ่มจาก สร้าง migration Posts Table
