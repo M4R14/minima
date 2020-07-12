@@ -16,6 +16,7 @@ minima:
 
   # generate social links in footer
   social_links:
+    skin: dark
     twitter: jekyllrb
     github:  jekyll
     # devto: jekyll
