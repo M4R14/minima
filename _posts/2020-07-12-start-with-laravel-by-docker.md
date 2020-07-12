@@ -9,6 +9,7 @@ categories: laravel
 --volume $PWD:/app \\
 composer create-project --prefer-dist laravel/laravel laravel-blog`
 2. เข้า https://phpdocker.io/generator เพื่อสร้างไฟล์ `docker-compose.yml` ตั้งชื่อโปรเจค `laravel-blog`
+    
     ```
     Global configuration
         — Project name : laravel-blog
@@ -24,6 +25,7 @@ composer create-project --prefer-dist laravel/laravel laravel-blog`
             — Database Username: admin_laravel_blog
             — Database Password: 123456
     ```
+
     แล้วกด “Generate project archive” จะได้รับ “laravel-blog.zip”
 3. แตกไฟล์ laravel-blog.zip `unzip laravel-blog.zip && mv laravel-blog/* /<project_path>/aravel-blog`
 4. แก้ไข้ .env
