@@ -1,6 +1,7 @@
-# Domain-driven design
-
-## Articles
+---
+layout: post
+title:  "บทความน่าสนใจเกี่ยวกับ Domain-driven design"
+---
 
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design)
 - [สรุป Class Domain-Driven Design by Roofimon](https://medium.com/@metawin/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B-class-domain-driven-design-by-roofimon-4282c50527f)
