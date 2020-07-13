@@ -67,6 +67,7 @@ class Post extends Model implements HasMedia
 สร้าง UI สร้างสำหรับ เขียน Post และ Upload รูป สำคัญเลยต้องมี `enctype="multipart/form-data"` เพราะผมลืมบ่อยมาก
 
 ```html
+{% raw %}
 <!-- resources/views/post/index.blade.php -->
 ....
 <form enctype="multipart/form-data" action="{{ route('posts.store') }}" method="POST">
@@ -82,6 +83,7 @@ class Post extends Model implements HasMedia
     </div>
 </form>
 ...
+{% endraw %}
 ```
 
 ผลที่ได้
@@ -120,6 +122,7 @@ $post->addMedia($path)->toMediaCollection('attach-image');
 ทำได้งานๆ โดย `$item->getMedia()->first()` ได้เลยตามนี้ หรือ [วิธีอื่นๆ](https://docs.spatie.be/laravel-medialibrary/v8/advanced-usage/rendering-media/)
 
 ```html
+{% raw %}
 <!-- resources/views/post/index.blade.php -->
 ...
 @foreach ($posts as $item)
@@ -135,6 +138,7 @@ $post->addMedia($path)->toMediaCollection('attach-image');
     </div>
 @endforeach
 ...
+{% endraw %}
 ```
 ผลที่ได้
 ![demo](/images/posts/laravel-medialibrary/demo.png)
