@@ -1,5 +1,5 @@
 ---
-title: รันคำสั่ง migration บน url
+title: รันคำสั่ง Migration ของ Laravel บน url
 tags: laravel
 ---
 
