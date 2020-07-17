@@ -3,9 +3,7 @@ author:
   name: vachirawit laolod
   email: vachirawit.mark@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  บันทึกเกี่ยวกับการทำงาน
 google_analytics: UA-139883082-5
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -78,7 +76,11 @@ tag_permalink_style: pretty
 tag_page_data:
   sitemap: false
 
+url: "https://vachirawit.com" # the base hostname & protocol for your site
+
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-titles-from-headings
+  - jemoji
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
