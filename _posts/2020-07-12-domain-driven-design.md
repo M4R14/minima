@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "บทความน่าสนใจเกี่ยวกับ Domain-driven design"
+title: "บทความน่าสนใจเกี่ยวกับ Domain-driven design"
 ---
 
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design)

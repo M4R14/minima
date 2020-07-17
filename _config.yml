@@ -9,13 +9,16 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
+# disqus:
+#   shortname: vachirawit
+
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+      comments: true
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -64,6 +67,14 @@ header_pages:
 
 # Build settings
 theme: minima
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+tag_permalink_style: pretty
+tag_page_data:
+  sitemap: false
 
 plugins:
  - jekyll-feed

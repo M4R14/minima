@@ -2,6 +2,7 @@
 layout: post
 title:  "แปลง MySQL ไปเป็น Laravel Migration"
 categories: mysql laravel
+tags: laravel mysql
 ---
 <!-- # Mysql to Laravel Migration -->
 
