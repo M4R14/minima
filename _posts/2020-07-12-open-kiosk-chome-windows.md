@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ขั้นตอน/วิธีเปิดโหมด Kiosk ใน Chrome สำหรับ Windows
+tags: kiosk
 ---
 **Kiosk** คือเครื่องให้บริการแบบเป็นตู้ๆ วางไว้ตามที่ต่างๆ ที่ำกันสิทธิของ User ให้ทำได้แค่ไม่กี่อย่าง
 1. สร้าง shortcut ของ Chrome

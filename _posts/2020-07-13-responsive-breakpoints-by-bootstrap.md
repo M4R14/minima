@@ -1,5 +1,6 @@
 ---
 title:  "เขียนเว็บ Responsive แต่จำขนาดไม่ได้ก็ไปดูที่ Bootstrap"
+tags: bootstrap
 ---
 
 การกำหนดขนาดหน้าจอ Responsive 5 ขนาดในแบบ [Botstrap][2] ประกอบด้วย xl lg md sm และ xs จากหัวข้อ [Responsive breakpoints](1) สิ่งที่นำมาใช่อย่างได้ผลมีดังนี้
