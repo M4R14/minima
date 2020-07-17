@@ -9,8 +9,10 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-# disqus:
-#   shortname: vachirawit
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true 
 
 defaults:
   - scope:
@@ -79,3 +81,4 @@ tag_page_data:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-titles-from-headings
