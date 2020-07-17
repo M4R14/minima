@@ -9,7 +9,6 @@ layout: default
 
   {{ content }}
 
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -59,5 +58,10 @@ layout: default
     {%- endif %}
 
   {%- endif -%}
+
+  <h2 style="border-bottom: solid #e8e8e8 1px;">Tags</h2>
+  <div id="tag-cloud" style="text-transform: capitalize;">
+    {{ site | tag_cloud }}
+  </div>
 
 </div>

@@ -30,6 +30,12 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="tag-list">
+    {%- for page_tag in page.tags -%}
+      <a href="/tag/{{ page_tag }}" style="margin-left: 0.3rem;" >{{ page_tag }}</a>
+    {%- endfor -%}
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
