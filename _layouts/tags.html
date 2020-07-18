@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="tags-expo-section">
+    {% for tag in site.tags %}
+    <a href="/tag/{{ tag[0] | slugify }}" style="color: black;" >
+        <h2 id="{{ tag[0] | slugify }}" style="text-transform:capitalize" >{{ tag | first }}</h2>
+    </a>
+    <ul class="tags-expo-posts">
+      {% for post in tag[1] %}
+        <li>
+            <a class="" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
+            <small class="">
+              ({{ post.date | date_to_string }} | Tags: {{ post | tags }})
+            </small>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+</div>

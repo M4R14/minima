@@ -10,4 +10,5 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-tagging'
     gem 'jemoji'
+    gem 'liquid-md5'
 end
